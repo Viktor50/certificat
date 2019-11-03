@@ -9,7 +9,9 @@ use App\Http\Controllers\Helpers\MrBaseHelper;
 use App\Http\Models\MrCountry;
 use App\Http\Models\MrOffice;
 use Illuminate\Http\Request;
-
+/**
+ * Форма редактирования юридических реквизитов ВО
+ */
 class MrAdminOfficeDetailsEditForm extends MrFormBase
 {
   protected function builderForm(&$form, $id)
